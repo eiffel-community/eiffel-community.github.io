@@ -50,7 +50,7 @@ button[disabled],html input[disabled] {
 
 button::-moz-focus-inner,input::-moz-focus-inner {
   border:0;padding:0}
-  
+
 input {
   line-height:normal
 }
@@ -185,7 +185,7 @@ ul ul ol,ul ol ol,ol ul ol,ol ol ol {
 
 section {
   padding:48px;
-  margin-top:30px;
+  margin-top:10px;
 }
 
 .footer {
@@ -209,7 +209,7 @@ section {
 .footer-nav {
   float:left
 }
-  
+
 .footer-nav-item {
   display:inline-block;
   margin-left:20px
@@ -224,5 +224,65 @@ section {
   margin-right:auto;
   padding-left:15px;
   padding-right:15px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
-  
+
+.header {
+}
+
+.header-nav {
+  float: right;
+  min-height: 30px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+.header-nav-link {
+  color: #333;
+  font-size: 24px;
+  font-size: 15px;
+  border-bottom: 2px solid transparent;
+  margin-left: 15px;
+}
+
+.extra-hover-underline.active, .extra-hover-underline:active, .extra-hover-underline:hover {
+  border-bottom-color: #e8e8e8;
+}
+
+.header-logo-image {
+  padding-right: 5px;
+  padding-top:15px;
+  padding-bottom:15px;
+  height: 64px;
+  width: auto;
+  vertical-align: middle !important;
+}
+
+.header-nav-link-image {
+  height: 32px;
+  width: auto;
+  vertical-align: middle !important;
+}
+
+.no-underline-hover:hover {
+  text-decoration: none;
+}
+
+.splash-image {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.splash-text-large {
+  text-align: center;
+  font-size: 64px;
+}
+
+.splash-text-small {
+  text-align: center;
+  font-size: 24px;
+}
