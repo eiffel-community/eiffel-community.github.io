@@ -210,11 +210,6 @@ section {
   float:left
 }
 
-.footer-nav-item {
-  display:inline-block;
-  margin-left:20px
-}
-
 .footer-right-filler {
   float:right
 }
@@ -238,7 +233,7 @@ section {
   padding-top: 15px;
 }
 
-.header-nav-link {
+.header-footer-nav-link {
   color: #333;
   font-size: 24px;
   font-size: 15px;
@@ -247,7 +242,7 @@ section {
 }
 
 .extra-hover-underline.active, .extra-hover-underline:active, .extra-hover-underline:hover {
-  border-bottom-color: #e8e8e8;
+  border-bottom-color: #d6d6d6;
 }
 
 .header-logo-image {
@@ -277,6 +272,9 @@ section {
   display: block;
 }
 
+.section-heading {
+}
+
 .splash-text-large {
   text-align: center;
   font-size: 64px;
@@ -285,4 +283,34 @@ section {
 .splash-text-small {
   text-align: center;
   font-size: 24px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .splash-text-large {
+    font-size: 48px;
+  }
+
+  .splash-text-small {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .splash-text-large {
+    font-size: 32px;
+  }
+
+  .splash-text-small {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .splash-text-large {
+    font-size: 24px;
+  }
+
+  .splash-text-small {
+    font-size: 12px;
+  }
 }
