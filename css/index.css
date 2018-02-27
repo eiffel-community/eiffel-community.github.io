@@ -183,19 +183,31 @@ ul ul ol,ul ol ol,ol ul ol,ol ol ol {
   list-style-type:lower-alpha
 }
 
+section {
+  padding:48px;
+  margin-top:30px;
+}
+
 .footer {
   position:relative;
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top:15px;
+  padding-bottom:50px;
   margin-top:30px;
   font-size:13px;
   line-height:32px;
   text-align:center;
-  border-top:1px solid #e8e8e8
+  border-top:1px solid #e8e8e8;
+  background: #f7fbfa
+}
+
+.bg-shade {
+  border-top:1px solid #e8e8e8;
+  border-bottom:1px solid #e8e8e8;
+  background: #f7fbfa
 }
 
 .footer-nav {
-  float:right
+  float:left
 }
   
 .footer-nav-item {
@@ -203,11 +215,14 @@ ul ul ol,ul ol ol,ol ul ol,ol ol ol {
   margin-left:20px
 }
 
+.footer-right-filler {
+  float:right
+}
+
 .container {
   margin-left:auto;
   margin-right:auto;
   padding-left:15px;
   padding-right:15px;
-  max-width:980px
 }
   
