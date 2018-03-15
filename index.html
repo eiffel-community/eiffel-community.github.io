@@ -19,7 +19,7 @@
 
         <nav class="header-nav">
           <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/Ericsson/eiffel">Protocol</a>
-          <a class="header-footer-nav-link extra-hover-underline" href="https://github.com/eiffel-community/eiffel-sepia">Implementation Architecture</a>
+          <a class="header-footer-nav-link extra-hover-underline" href="https://eiffel-community.github.io/eiffel-sepia">Implementation Architecture</a>
           <a class="header-footer-nav-link extra-hover-underline" href="/community.html">Community</a>
           <a class="header-footer-nav-link no-underline-hover" href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">
             <img src="images/youtube-channel-icon.png" class="header-nav-link-image"/>
@@ -61,13 +61,13 @@
       <div class="container bg-shade">
         <h1 class="section-heading">Getting started</h1>
         <p class="section-paragraph">To get into the concepts of the Eiffel protocol, subscribe to our <a href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">Youtube channel</a> and watch the screen casts on what the Eiffel protocol is, and how it achieves its mission. If you're looking for examples of how to use it, try the Usage Examples provided in the <a href="https://github.com/Ericsson/eiffel">protocol repository</a>. If you want to try it out yourself in a sandbox environment, try building and running the sandbox Docker image (to be added soon).</p>
-        <p class="section-paragraph">Keep in mind that Eiffel is designed to let you cherry-pick the parts that add value for you, while ignoring the rest. This goes for the protocol as well as for its implementations. Browse the <a href="https://github.com/Ericsson/eiffel">protocol vocabulary</a> and the <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia implementation architecture</a> to find what supports your critical use case, and then expand from there.</p>
+        <p class="section-paragraph">Keep in mind that Eiffel is designed to let you cherry-pick the parts that add value for you, while ignoring the rest. This goes for the protocol as well as for its implementations. Browse the <a href="https://github.com/Ericsson/eiffel">protocol vocabulary</a> and the <a href="https://eiffel-community.github.io/eiffel-sepia">Sepia implementation architecture</a> to find what supports your critical use case, and then expand from there.</p>
       </div>
     </section>
     <section>
       <div class="container">
         <h1 class="section-heading">Getting involved</h1>
-        <p class="section-paragraph">Contributions are more than welcome in the Eiffel community, both to the protocol itself and to its implementations. A good starting point for contributing to the protocol itself is <a href="https://github.com/Ericsson/eiffel/issues">its list of open issues</a>: find an unaddressed one, or create a new one! To get involved on the implementation side, start by visiting the <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia implementation architecture</a> to find implementations you think are missing, or existing implementations you can contribute to. Every repository in the Eiffel community maintains an issue list, accepts pull requests and features a maintainers' mailing list (linked from each respository README).</p>
+        <p class="section-paragraph">Contributions are more than welcome in the Eiffel community, both to the protocol itself and to its implementations. A good starting point for contributing to the protocol itself is <a href="https://github.com/Ericsson/eiffel/issues">its list of open issues</a>: find an unaddressed one, or create a new one! To get involved on the implementation side, start by visiting the <a href="https://eiffel-community.github.io/eiffel-sepia">Sepia implementation architecture</a> to find implementations you think are missing, or existing implementations you can contribute to. Every repository in the Eiffel community maintains an issue list, accepts pull requests and features a maintainers' mailing list (linked from each respository README).</p>
       </div>
     </section>
     <section>
@@ -82,7 +82,7 @@
           </p>
         </section>
         <section>
-          <a href="https://github.com/eiffel-community/eiffel-sepia"><img src="images/eiffel-sepia-logo.png" class="section-paragraph-image" /></a>
+          <a href="https://eiffel-community.github.io/eiffel-sepia"><img src="images/eiffel-sepia-logo.png" class="section-paragraph-image" /></a>
           <p class="section-paragraph right-of-image">
             The Sepia Eiffel Protocol Implementation Architecture is one level down from the Eiffel protocol in terms of abstraction. Because the protocol makes no assumptions with regards to implementation and technology choices, creating a software production system utilizing the Eiffel protocol is a design problem with infinite solutions. Sepia narrows that solution space by identifying types of actors, reference implementations, interface specifications as well as data and Eiffel event type ownership. To get an overview of how actors may collaborate in practice using Eiffel and the concrete implementations available, Sepia is a good place to start.<br/>
             Repository: <a href="https://github.com/eiffel-community/eiffel-sepia">eiffel-sepia</a><br>
@@ -99,7 +99,7 @@
           <p class="section-paragraph right-of-image">
             Eiffel events are small and atomic, but non-trivial use cases require more information than what can be gained from a single one. Eiffel Intelligence aggregates events over time into rich data objects, representing everything that is known to date about a given type of entity: release candidates, test cases, source revisions, developers and so on. Through its subscription interface clients can sign up for alerts whenever a certain state has been achieved, providing a powerful yet easy to use mechanism for acting upon data gathered from the software production system.<br/>
             Repository: <a href="https://github.com/Ericsson/eiffel-intelligence">eiffel-intelligence</a><br>
-            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
+            Role in <a href="https://eiffel-community.github.io/eiffel-sepia">Sepia</a>: <a href="https://eiffel-community.github.io/eiffel-sepia/event-analysis.html">Event Analysis</a><br/>
             Status: Functional, but not mature.<br/>
           </p>
         </section>
@@ -108,7 +108,7 @@
           <p class="section-paragraph right-of-image">
             Remrem acts as a REST based mailbox towards an Eiffel message bus. It provides an abstraction that allows its clients to send messages without first integrating with a particular messaging technology, and takes care of most of the heavy lifting involved in authoring and publishing event messages.<br/>
             Repository: <a href="https://github.com/Ericsson/eiffel-remrem">eiffel-remrem</a><br>
-            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
+            Role in <a href="https://eiffel-community.github.io/eiffel-sepia">Sepia</a>: <a href="https://eiffel-community.github.io/eiffel-sepia/event-publishing.html">Event Publishing</a><br/>
             Status: In progress.<br/>
           </p>
         </section>
@@ -117,7 +117,7 @@
           <p class="section-paragraph right-of-image">
             Vici dynamically visualizes Eiffel retrieved from a persistance service. This affords overview and inspection of the software production system in real time, such as it really is, across underlying technologies.
             Repository: <a href="https://github.com/Ericsson/eiffel-vici">eiffel-vici</a><br>
-            Role in <a href="https://github.com/eiffel-community/eiffel-sepia">Sepia</a>: TBD<br/>
+            Role in <a href="https://eiffel-community.github.io/eiffel-sepia">Sepia</a>: <a href="https://eiffel-community.github.io/eiffel-sepia/event-presentation.html">Event Presentation</a><br/>
             Status: Functional, but not mature.<br/>
           </p>
         </section>
