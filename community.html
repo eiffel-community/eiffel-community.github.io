@@ -9,34 +9,12 @@
     <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link rel='stylesheet' href='./css/index.css'>
     <meta name="theme-color" content="#ffffff">
+    <script src="./js/csi.min.js"></script>
   </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <a class="header-logo no-underline-hover" href="/">
-          <img src="images/eiffel-logo.png" class="header-logo-image"/>
-        </a>
-
-        <nav class="header-nav">
-          <a class="header-footer-nav-link" href="https://github.com/eiffel-community/eiffel">Protocol</a>
-          <a class="header-footer-nav-link" href="./community.html">Community</a>
-          <a class="header-footer-nav-link" href="./mission-and-vision.html">Mission and Vision</a>
-          <a class="header-footer-nav-link" href="./security.html">Security</a>
-          <a class="header-footer-nav-link" href="./summit.html">Eiffel Summit</a>
-          <a class="header-footer-nav-link no-underline-hover" href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">
-            <img src="images/youtube-channel-icon.png" class="header-nav-link-image"/>
-          </a>
-          <a class="header-footer-nav-link no-underline-hover" href="https://github.com/eiffel-community">
-            <img src="images/github-organization-icon.png" class="header-nav-link-image"/>
-          </a>
-          <a class="header-footer-nav-link no-underline-hover" href="https://groups.google.com/forum/#!forum/eiffel-community">
-            <img src="images/google-group-icon.png" class="header-nav-link-image"/>
-          </a>
-        </nav>
-      </div>
-    </header>
+  <body class="container">
+    <div data-include="./includes/header.html"></div>
     <section>
-      <div class="container bg-shade">
+      <div>
         <h1 class="section-heading">Contact</h1>
         <p class="centered-text">Join our <a href="https://groups.google.com/forum/#!forum/eiffel-community">Google Group</a> to join the conversation on the Eiffel protocol and its implementations.</p>
         <p class="centered-text"> You can find a <a href="https://github.com/eiffel-community/community/blob/master/CONTACT.md">list of maintainers</a> in
@@ -47,24 +25,12 @@
 
 
     <section>
-      <div class="container">
+      <div>
         <h1 class="section-heading">Browse the eco-system</h1>
         <p class="centered-text">Browse the Eiffel repositories in the <a href="https://github.com/eiffel-community">eiffel-community organization on GitHub</a>.</p>
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="container">
-        <nav class="footer-nav">
-          <a class="header-footer-nav-link" href="https://groups.google.com/forum/#!forum/eiffel-community">Google Group</a>
-          <a class="header-footer-nav-link" href="https://join.slack.com/t/eiffel-workspace/shared_invite/enQtOTI3MzEzMzY4Mzg0LTA3NDVmNjgzZjk1YTFjNzk5OWE4MjExYzE1ODU1NzA1YzY5MzhlZmYxZmIwMzhiM2ExOWM4ZGJlYzdkN2M5OTE">Slack Workspace</a>
-          <a class="header-footer-nav-link" href="https://www.youtube.com/channel/UC3Zx84ecQ1jyGSc9709xrZg">YouTube Channel</a>
-          <a class="header-footer-nav-link" href="https://github.com/eiffel-community/eiffel">Eiffel protocol @ GitHub</a>
-          <a class="header-footer-nav-link" href="https://github.com/eiffel-community">Eiffel Community @ GitHub</a>
-        </nav>
-      </div>
-      <span class="footer-right-filler">
-      </span>
-    </footer>
+    <div data-include="includes/footer.html"></div>
   </body>
 </html>
