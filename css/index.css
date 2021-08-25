@@ -71,6 +71,10 @@ svg {
   font-size: 24px;
 }
 
+td p {
+padding: 15px;
+}
+
 @media only screen and (max-width: 1024px) {
   .splash-text-large {
     font-size: 48px;
