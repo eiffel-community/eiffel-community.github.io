@@ -26,16 +26,20 @@
       <div>
         <h1 class="section-heading">The practicals</h1>
         <p class="section-paragraph">
-					<ul>
-						<li>Where: <a target="_blank" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM1NDM4OGYtYzNmZi00OGY2LTlmODEtZmMyMmY0MDRkMWYy%40thread.v2/0?context=%7b%22Tid%22%3a%2292e84ceb-fbfd-47ab-be52-080c6b87953f%22%2c%22Oid%22%3a%2249725723-aa8c-4dcf-b9d0-b974e8a25702%22%7d">Microsoft Teams Meeting</a></li>
-						<li>When : 22nd-23rd of September, 9:00 - 16:00 CEST</li>
-                        <li>
-                          How: Click <a target="_blank" href="https://video.meet.ericsson.net/webapp/?conference=1254642830&ivr=teams&d=video.meet.ericsson.net&ip=193.180.251.91&test=testcall&w">here</a>
-                          to join from your browser or app<br/>
-                          To join from Non-Ericsson video device: Dial teams@video.meet.ericsson.net, enter the VTC Conference ID 1254642830  followed by #
-                        </li>
-					</ul>
-				</p>
+	  <ul>
+	    <li>Where: <a target="_blank" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGM1NDM4OGYtYzNmZi00OGY2LTlmODEtZmMyMmY0MDRkMWYy%40thread.v2/0?context=%7b%22Tid%22%3a%2292e84ceb-fbfd-47ab-be52-080c6b87953f%22%2c%22Oid%22%3a%2249725723-aa8c-4dcf-b9d0-b974e8a25702%22%7d">Microsoft Teams Meeting</a></li>
+	    <li>When : 22nd–23rd of September, 9:00–16:00 CEST</li>
+            <li>
+              How: Click <a target="_blank" href="https://video.meet.ericsson.net/webapp/?conference=1254642830&ivr=teams&d=video.meet.ericsson.net&ip=193.180.251.91&test=testcall&w">here</a>
+              to join from your browser or app<br/>
+              To join from Non-Ericsson video device: Dial teams@video.meet.ericsson.net, enter the VTC Conference ID 1254642830  followed by #
+            </li>
+            <li>
+              Who: To get in touch with the organizers send an email to
+              <a href="mailto:eiffel-tc@googlegroups.com">eiffel-tc@googlegroups.com</a>.
+            </li>
+	  </ul>
+	</p>
         <h1>Agenda</h1>
         <h2>Day 1 (Wednesday 22nd of September)</h2>
         <table class="striped ">
@@ -102,7 +106,12 @@
                 <details>
                   <summary>Changes in the Paris and Lyon editions of the protocol</summary>
                   <div>
-                    Walkthrough of what is new in the Paris and Lyon edition
+                    Since the last summit one new Eiffel edition has
+                    been published
+                    (<a href="https://github.com/eiffel-community/eiffel/releases/tag/edition-paris">Paris</a>)
+                    and another one is on its way out the door
+                    (<a href="https://github.com/eiffel-community/eiffel/milestone/6">Lyon</a>).
+                    This session walks through which changes have been made.
                     <p>
                       <b>Speaker: </b> Emil Bäckmark
                     </p>
@@ -124,7 +133,9 @@
                 <details>
                   <summary>Technical Committee updates</summary>
                   <div>
-                    What has happend in the Techical committee since last time
+                    What has happend in the
+                    <a href="https://github.com/eiffel-community/community/blob/master/GOVERNANCE.md#technical-committee">Technical committee</a>
+                    since last time?
                     <p>
                       <b>Speaker: </b> Emil Bäckmark
                     </p>
@@ -156,8 +167,12 @@
                 <details>
                   <summary>New routing key standard</summary>
                   <div>
-                    Explanation of the new standard for routing keys described in the Sepia
-                    protocol
+                    Sepia has recently been updated to standardize
+                    what RabbitMQ routing keys (topics) should be used
+                    when publishing events. This'll enable consumers
+                    to set up narrower subscriptions and not have to
+                    throw many of the received messages. See
+                    <a href="https://github.com/eiffel-community/eiffel-sepia/pull/9">github.com/eiffel-community/eiffel-sepia#9</a>.
                     <p>
                       <b>Speaker: </b> Magnus Bäck
                     </p>
@@ -173,16 +188,31 @@
             <tr>
               <td>
                 <details>
-                  <summary>Discussion: Open issues in the protocol repos</summary>
+                  <summary>What's cooking in the community?</summary>
                   <div>
-                    The audience picks an issue to discuss
+                    Many of us have Eiffel-related tools or
+                    integrations in the works. This hour is dedicated
+                    to 5–10 minute talks for showcasing ideas and
+                    things that aren't ready for a full demo or
+                    session but deserve to be shared for spreading
+                    awareness and to collect early feedback.
                     <p>
-                      <b>Moderator: </b> TBD
+                      We'll schedule these talks ad hoc but to make
+                      things easier we encourage you to contact
+                      <a href="mailto:eiffel-tc@googlegroups.com">eiffel-tc@googlegroups.com</a>
+                      ahead of time and let us know about your talk.
+                    </p>
+                    <p>
+                      <b>Moderator: </b> Emil Bäckmark
                     </p>
                   </div>
                 </details>
               </td>
-              <td><span class="tag bd-error">Advanced</span></td>
+              <td>
+                <span class="tag bd-success" style="border: 1px solid blue !important;">
+                  Intermediate
+                </span>
+              </td>
               <td>15:00</td>
             </tr>
 
@@ -204,7 +234,10 @@
                 <details>
                   <summary>Eiffel vs CDF SIG Events protocol on Cloudevents</summary>
                   <div>
-                    What is CDF and how does SIG events protocol suggestion relate to Eiffel
+                    What is the <a href="https://cd.foundation/">CD Foundation</a>
+                    (CDF) and how does the protocol under way by its
+                    <a href="https://github.com/cdfoundation/sig-events">SIG events</a>
+                    relate to Eiffel?
                     <p>
                       <b>Speaker: </b> Mattias Linnér
                     </p>
@@ -219,7 +252,9 @@
                 <details>
                   <summary>eiffel-broadcaster Jenkins plugin</summary>
                   <div>
-                    What is the eiffel-broadcaster Jenkins plugin and how do I use it?
+                    A walkthrough of the features of the
+                    <a href="https://plugins.jenkins.io/eiffel-broadcaster/">eiffel-broadcaster</a>
+                    Jenkins plugin.
                     <p>
                       <b>Speaker: </b> Magnus Bäck
                     </p>
@@ -239,7 +274,10 @@
                 <details>
                   <summary>Event SDKs</summary>
                   <div>
-                    What SDK do we have in Eiffel?
+                    Open source libraries, or SDKs, for working with
+                    Eiffel events is missing for most languages. We'll
+                    talk about the available SDKs, how they differ,
+                    and discuss how we want these SDKs to work.
                     <p>
                       <b>Speaker: </b> Magnus Bäck
                     </p>
@@ -259,9 +297,11 @@
             <tr>
               <td>
                 <details>
-                  <summary>ER Access</summary>
+                  <summary>Accessing an event repository</summary>
                   <div>
-                    What is an ER and what alternatives are there?
+                    Most Eiffel deployments have a centralized event
+                    repository for accessing past events. What options
+                    are there and how do they differ?
                     <p>
                       <b>Speaker: </b> Tobias Persson
                     </p>
@@ -281,9 +321,12 @@
                 <details>
                   <summary>Discussion: Event type categorization</summary>
                   <div>
-                    Discussion on how to categorize our events
+                    Event types in Eiffel can be categorized in many
+                    different ways. Sepia makes an attempt, as does
+                    REMReM. Is it relevant to have a single such
+                    categorization, and if so, what would it look like?
                     <p>
-                      <b>Moderator: </b> TBD
+                      <b>Moderator: </b> Mattias Linnér
                     </p>
                   </div>
                 </details>
@@ -303,9 +346,16 @@
                 <details>
                   <summary>Discussion: Source change events</summary>
                   <div>
-                    More info to come...
+                    The two Eiffel events for modelling source code changes,
+                    <a href="https://github.com/eiffel-community/eiffel/blob/master/eiffel-vocabulary/EiffelSourceChangeCreatedEvent.md">SCC</a>
+                    and
+                    <a href="https://github.com/eiffel-community/eiffel/blob/master/eiffel-vocabulary/EiffelSourceChangeSubmittedEvent.md">SCS</a>,
+                    create some challenges when attempting to use them
+                    to model a Git DAG. Let's talk about the
+                    improvement proposal made in
+                    <a href="https://github.com/eiffel-community/eiffel/issues/261">github.com/eiffel-community/eiffel#261</a>.
                     <p>
-                      <b>Moderator: </b> TBD
+                      <b>Moderator: </b> Magnus Bäck
                     </p>
                   </div>
                 </details>
@@ -319,7 +369,13 @@
                 <details>
                   <summary>Discussion: Using Eiffel to implement event-triggered pipelines</summary>
                   <div>
-                    How do I create a flow of pipelines that are triggered by Eiffel events
+                    While Eiffel could be used just for traceability
+                    of existing pipelines it's also well-suited for
+                    actual triggering of pipeline tasks. What what are
+                    the challenges when doing this? How do you deal
+                    with error when there's no single entity that
+                    determines the pipeline graph and is responsible
+                    for its execution?
                     <p>
                       <b>Moderator: </b> Magnus Bäck
                     </p>
@@ -337,11 +393,20 @@
             <tr>
               <td>
                 <details>
-                  <summary>Discussion: Extracting common structs</summary>
+                  <summary>Discussion: Extracting common structures</summary>
                   <div>
-                    How should we handle common structures like meta and data.gitIdentifier
+                    Today, all Eiffel events have their own entirely
+                    independent schemas. And yet, surely everyone
+                    assumes the <tt>meta</tt>
+                    key's contents to be the same across
+                    all events. There are other keys whose values
+                    effectively have the same schema across more than
+                    one event type. Is this the best we can do or
+                    should we strive to change this and extract
+                    common pieces into external structures that we can
+                    reference in schema files?
                     <p>
-                      <b>Moderator: </b> TBD
+                      <b>Moderator: </b> Magnus Bäck
                     </p>
                   </div>
                 </details>
