@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-31T11:37:20.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="-JkIaqTQIVGglgq8nXMd" version="21.2.8" type="device">
+<mxfile host="Electron" modified="2023-06-01T11:00:45.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="-vgz_-VtRrR_KA4DThbT" version="21.2.8" type="device">
   <diagram id="w1ZEGMjmR53ewqX5dvrm" name="Page-1">
     <mxGraphModel dx="1434" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-40" value="Libraries" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="240" width="560" height="160" as="geometry" />
+          <mxGeometry x="640" y="240" width="510" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;Eiffel Commons&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-commons" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-12">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-40" vertex="1">
@@ -163,7 +163,7 @@
             <mxGeometry x="224" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;u&gt;GO SDK&lt;/u&gt;" link="https://github.com/eiffel-community/eiffelevents-sdk-go" linkTarget="_blank" id="XxlDGhDn90PTSgsso3PK-1">
+        <UserObject label="&lt;u&gt;Go SDK&lt;/u&gt;" link="https://github.com/eiffel-community/eiffelevents-sdk-go" linkTarget="_blank" id="XxlDGhDn90PTSgsso3PK-1">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-40" vertex="1">
             <mxGeometry x="320" y="40" width="70" height="70" as="geometry" />
           </mxCell>
