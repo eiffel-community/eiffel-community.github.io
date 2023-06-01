@@ -33,7 +33,7 @@
             <li>
               Where: <a href="https://dowhile.se/">doWhile</a>,
               <a href="https://goo.gl/maps/ixnYGRBcCbQQw3Gd6">
-                Lindholmspiren&nbsp;7, 417&nbsp;56 Gothenborg, Sweden
+                Lindholmspiren&nbsp;7, 417&nbsp;56 Gothenburg, Sweden
               </a>
             </li>
             <li>
@@ -57,49 +57,8 @@
         </p>
         <h1>Agenda</h1>
         <p>
-          The agenda is still being worked on, but we're gravitating
-          towards these themes (partially dependent on the indicated
-          interest of people who register):
-          <dl>
-            <dt>Improved source change events</dt>
-            <dd>
-              The current source change events model an abstraction of
-              what goes on in a source code repository. This is
-              sufficient for some use cases but can pose problems if
-              you want a model that more closely matches
-              reality. Let's continue the discussion around this and
-              the concrete proposal in
-              <a href="https://github.com/eiffel-community/eiffel/issues/261">
-                github.com/eiffel-community/eiffel#261
-              </a>.
-              That aside, with the current events there's no standard
-              way of representing tags.
-            </dd>
-            <dt>Deployment events and DORA metrics</dt>
-            <dd>
-              What can we do with the experimental
-              EiffelArtifactDeployedEvent
-              (<a href="https://github.com/eiffel-community/eiffel/pull/322">github.com/eiffel-community/eiffel#322</a>)?
-              Which DORA metrics can we cover with Eiffel?
-            </dd>
-            <dt>What is Eiffel and why should I care?</dt>
-            <dd>
-              Introduction to those who are new to Eiffel.
-            </dd>
-            <dt>Visualizations</dt>
-            <dd>
-              How can we use Eiffel to visualize CI/CD pipeline,
-              either with generic solutions or highly specialized ones.
-            </dd>
-            <dt>Security, CVEs, and SBOMs</dt>
-            <dd>
-              How can Eiffel be used to address concerns related
-              to security and software supply chains?
-            </dd>
-          </ul>
-        </p>
-        <p>
-          This page will be updated as we get closer to the date.
+          The agenda is still being worked on, but this is the tentative agenda (partially dependent on the indicated
+          interest of people who register).
         </p>
         <p>
           The second day of the summit, June&nbsp;14, is adjacent to the
@@ -109,10 +68,434 @@
           familar with Eiffel in particular but is well-versed in the
           CI/CD space in general, possibly from the academic side.
         </p>
-        <p>
-          If there's any topic you'd like to see covered please reach
-          out to us.
-        </p>
+        <h2>Day 1 (Tuesday, June 13)</h2>
+        <table class="striped ">
+          <thead>
+            <tr>
+              <th>Topic</th>
+              <th>Level</th>
+              <th>Start time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <details>
+                  <summary>Welcome, introductions &amp; agenda adjustments</summary>
+                  <div>
+                    <p>
+                      There will no doubt be some new faces so let's
+                      introduce ourselves before we start. Our hosts
+                      might also have practical matters to talk about.
+                    </p>
+                    <p>
+                      <b>Speakers:</b> Eiffel Technical Committee &amp; Erik Sternersson
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">Beginner</span></td>
+              <td>9:00</td>
+            </tr>
+
+            <tr><td>Break</td><td></td><td>10:00</td></tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary><b><span style="color: var(--color-success);">Track 1:</span></b> What is Eiffel?</summary>
+                  <div>
+                    <p>
+                      An introduction to what Eiffel is and why you should care
+                    </p>
+                    <p>
+                      <b>Speaker:</b> Erik Sternersson
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">Beginner</span></td>
+              <td>10:15</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary><b><span style="color: var(--color-success);">Track 1:</span></b> Eiffel Ecosystem &amp; SDKs</summary>
+                  <div>
+                    <p>
+                      How does the landscape of the Eiffel ecosystem look
+                      today? and what SDKs are available?
+                    </p>
+                    <p>
+                      <b>Speaker:</b> TBD
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">Beginner</span></td>
+              <td>11:00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary><b><span style="color: var(--color-error);">Track 2:</span></b> Event Aggregations Solutions
+                  </summary>
+                  <div>
+                    <p>
+                      Presentation and discussion about event aggregations
+                      and a proposal about a light-weight alternative to Eiffel
+                      Intelligence
+                    </p>
+                    <p>
+                      <b>Speakers:</b> Emil Bäckmark &amp; Tobias Åkervik
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-error">Advanced</span></td>
+              <td>10:15</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary><b><span style="color: var(--color-error);">Track 2:</span></b> Eiffel Event Conformance
+                  </summary>
+                  <div>
+                    <p>
+                      Is the Eiffel Protocol conformant (enough)? What issues
+                      do we see in event and parameter naming? On this session
+                      we will dissect the event specifications to potentially
+                      solve some of those issues.
+                    </p>
+                    <p>
+                      <b>Speaker:</b> Emil Bäckmark
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-error">Advanced</span></td>
+              <td>11:00</td>
+            </tr>
+
+            <tr><td>Lunch</td><td></td><td>11:45</td></tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Eiffel Usage Stories</summary>
+                  <div>
+                    <p>
+                      Show us what you've done with Eiffel! Are there some
+                      interesting use cases you've used Eiffel to handle? It
+                      could be demos or presentations. 10-15 minutes is enough.
+                      Take this opportunity to share some good ideas on Eiffel
+                      usage with the rest of the community! You might get
+                      valuable input to progress your usage even more :)
+                    </p>
+                    <p>
+                      <b>Speakers:</b> All
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">Beginner</span></td>
+              <td>12:45</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Q&A</summary>
+                  <div>
+                    <p>
+                      Bring your questions to the Eiffel Community in general
+                      and the Technical Committee specifically! Follow up on
+                      usage stories presented.
+                    </p>
+                    <p>
+                      <b>Speakers:</b> All
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">Beginner/Advanced</span></td>
+              <td>14:00</td>
+            </tr>
+
+            <tr><td>Break</td><td></td><td>14:45</td></tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Source Change Events</summary>
+                  <div>
+                    <p>
+                      We've had some community discussions on this topic already.
+                      We should now try to find the best way forward on if/how
+                      to refactor the Eiffel Source Change events.
+                      The current source change events model an abstraction of
+                      what goes on in a source code repository. This is
+                      sufficient for some use cases but can pose problems if
+                      you want a model that more closely matches
+                      reality. Let's continue the discussion around this and
+                      the concrete proposal in
+                      <a href="https://github.com/eiffel-community/eiffel/issues/261">
+                        github.com/eiffel-community/eiffel#261
+                      </a>.
+                      That aside, with the current events there's no standard
+                      way of representing tags.
+                    </p>
+                    <p>
+                      <b>Moderator:</b> Magnus Bäck
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success" style="border: 1px solid blue !important;">Intermediate</span></td>
+              <td>15:00</td>
+            </tr>
+
+            <tr><td>End of day 1</td><td></td><td>17:00</td></tr>
+
+            <tr><td>Eiffel Summit Dinner</td><td></td><td>18:30</td></tr>
+
+          </tbody>
+        </table>
+        <h2>Day 2 (Wednesday, October 12)</h2>
+        <table class="striped ">
+          <thead>
+            <tr>
+              <th>Topic</th>
+              <th>Level</th>
+              <th>Start time</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Introductions &amp; day 1 recap</summary>
+                  <div>
+                    <p>
+                      We have some new participants on day 2, so a short
+                      round of introductions and a brief recap of day 1 is
+                      suitable.
+                    </p>
+                    <p>
+                      <b>Speakers:</b> Eiffel TC &amp; Erik Sternersson
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">Beginner</span></td>
+              <td>9:00</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Software Center project update</summary>
+                  <div>
+                    <p>
+                      We will hear about the latest status on the software
+                      center project about visualization and also about
+                      learning chains of events.
+                    </p>
+                    <p>
+                      <b>Speaker:</b> Kristian Sandahl
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success" style="border: 1px solid blue !important;">Intermediate</span></td>
+              <td>9:15</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>CDF, CDEvents and Secure SW Supply Chains</summary>
+                  <div>
+                    <p>
+                      <ul>
+                        <li>What is the Continuous Delivery Foundation?</li>
+                        <li>What is CDEvents, what is its current status and how
+                          does it relate to Eiffel?</li>
+                        <li>How could events improve security in the Software
+                          Supply Chains?</li>
+                      </ul>
+                    </p>
+                    <p>
+                      <b>Speakers:</b> Fatih Degirmenci &amp; Emil Bäckmark
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success" style="border: 1px solid blue !important;">Intermediate</span></td>
+              <td>9:30</td>
+            </tr>
+
+            <tr><td>Break</td><td></td><td>10:30</td></tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Submit events securely</summary>
+                  <div>
+                    <p>
+                      A proposal for securely submitting events
+                    </p>
+                    <p>
+                      <b>Speaker:</b> Magnus Bäck
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-error">Advanced</span></td>
+              <td>10:45</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Orizaba &ndash; the latest Eiffel Edition</summary>
+                  <div>
+                    <p>
+                      The latest Eiffel edition is (will be?) Orizaba. What
+                      does it contain?
+                    </p>
+                    <p>
+                      <b>Speaker:</b> Eiffel TC
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success" style="border: 1px solid blue !important;">Intermediate</span></td>
+              <td>11:15</td>
+            </tr>
+
+            <tr><td>Lunch</td><td></td><td>11:45</td></tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>DORA &amp; Deployment Events</summary>
+                  <div>
+                    <p>
+                      What are DORA metrics?<br>
+                      What is the latest on deployment events in Eiffel?
+                      What can we do with the experimental
+                      EiffelArtifactDeployedEvent
+                      (<a href="https://github.com/eiffel-community/eiffel/pull/322">github.com/eiffel-community/eiffel#322</a>)?
+                      Which DORA metrics can we cover with Eiffel?
+                    </p>
+                    <p>
+                      <b>Speaker:</b> Erik Sternersson
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success" style="border: 1px solid blue !important;">Intermediate</span></td>
+              <td>12:45</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>CLM for HW &amp; SW Combined</summary>
+                  <div>
+                    <p>
+                      Eiffel can describe the level of confidence reached on a
+                      piece of software, through the
+                      EiffelConfidenceLevelModifiedEvent. Some software can be
+                      used on multiple <i>types</i> of hardware, and it's
+                      currently not described how to express that with the CLM
+                      events as they are defined today. So how can we also
+                      capture and describe the combination of software and
+                      hardware that we're feeling confident of? This is a
+                      follow-up of the
+                      <a href="https://hackmd.io/dpQQOkEeQoC5yV7IpFUYOg">
+                        2023-04-13 community meeting
+                      </a>.
+                    </p>
+                    <p>
+                      <b>Moderator:</b> Mattias Linnér
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-error">Advanced</span></td>
+              <td>13:30</td>
+            </tr>
+
+            <tr><td>Break</td><td></td><td>14:15</td></tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Eiffel Deployment @ Nordix</summary>
+                  <div>
+                    <p>
+                      A demo on a potential Eiffel Sandbox and playground,
+                      deployed on Nordix Infrastructure
+                    </p>
+                    <p>
+                      <b>Speaker:</b> Panagiotis Efstratiou
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success" style="border: 1px solid blue !important;">Intermediate</span></td>
+              <td>14:30</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Participants choose the subject</summary>
+                  <div>
+                    <p>
+                      Spare timeslot that we will fill with some interesting
+                      agenda point based on what the participants wants
+                    </p>
+                    <p>
+                      <b>Speaker:</b> TBD
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">?</span></td>
+              <td>15:15</td>
+            </tr>
+
+            <tr>
+              <td>
+                <details>
+                  <summary>Wrap up and Q&amp;A</summary>
+                  <div>
+                    <p>
+                      Time to wrap up what we've been through these two days.
+                      What actions should we take? Any unanswered questions?
+                    </p>
+                    <p>
+                      <b>Speakers:</b> Eiffel TC &amp; All
+                    </p>
+                  </div>
+                </details>
+              </td>
+              <td><span class="tag bd-success">Beginner</span></td>
+              <td>16:00</td>
+            </tr>
+
+            <tr><td>End of summit</td><td></td><td>17:00</td></tr>
+
+          </tbody>
+        </table>
+
       </div>
     </section>
     <section>
