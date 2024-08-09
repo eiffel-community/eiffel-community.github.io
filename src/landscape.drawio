@@ -1,11 +1,16 @@
-<mxfile host="Electron" modified="2023-06-01T11:00:45.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="-vgz_-VtRrR_KA4DThbT" version="21.2.8" type="device">
+<mxfile host="Electron" modified="2024-08-09T14:27:30.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="1LPzyl2dPO-oG2rOVyoW" version="24.6.4" type="device">
   <diagram id="w1ZEGMjmR53ewqX5dvrm" name="Page-1">
-    <mxGraphModel dx="1434" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="&lt;u&gt;Sepia&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-sepia" linkTarget="_blank" id="4cnv7Ipchus3uO7nBkjI-7">
+          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;" parent="1" vertex="1">
+            <mxGeometry x="715" y="480" width="70" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-24" value="Specification &amp; Architecture" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="585" y="440" width="240" height="160" as="geometry" />
+          <mxGeometry x="585" y="440" width="225" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;&lt;u&gt;Eiffel&lt;/u&gt;&lt;/div&gt;" link="https://github.com/eiffel-community/eiffel" linkTarget="_blank" id="4cnv7Ipchus3uO7nBkjI-6">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#bac8d3;shadow=0;glass=0;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-24" vertex="1">
@@ -15,65 +20,61 @@
         <mxCell id="pbUG1Z5GE2ASGBCX3JOG-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.banner;rounded=1;shadow=0;glass=0;sketch=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;gradientColor=#ffffff;" parent="zqeIun6VxYZo0FJ2K99U-24" vertex="1">
           <mxGeometry x="30" y="30" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="2yXzKbut6S0QtFYLAXX_-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.banner;rounded=1;shadow=0;glass=0;sketch=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;gradientColor=#ffffff;" parent="zqeIun6VxYZo0FJ2K99U-24" vertex="1">
+          <mxGeometry x="125" y="30" width="40" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-23" value="Plugins" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="240" width="410" height="160" as="geometry" />
+          <mxGeometry x="40" y="240" width="320" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;Gerrit Eiffel Plugin&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-gerrit-plugin" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-2">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-23" vertex="1">
             <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;u&gt;Eiffel Gerrit Herald&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-gerrit-herald" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-7">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-23" vertex="1">
-            <mxGeometry x="130" y="40" width="70" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;u&gt;Eiffelactory&lt;/u&gt;" link="https://github.com/eiffel-community/eiffelactory" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-13">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-23" vertex="1">
-            <mxGeometry x="220" y="40" width="70" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
         <UserObject label="&lt;u&gt;Eiffel Broadcaster&lt;/u&gt;" link="https://github.com/jenkinsci/eiffel-broadcaster-plugin" linkTarget="_blank" id="o22u1dbGZqNFwppqT962-4">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-23" vertex="1">
-            <mxGeometry x="310" y="40" width="70" height="70" as="geometry" />
+            <mxGeometry x="230" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="o22u1dbGZqNFwppqT962-7" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktYm94LWFycm93LXVwLXJpZ2h0IiB2aWV3Qm94PSIwIDAgMTYgMTYiPiYjeGE7ICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjYzNiAzLjVhLjUuNSAwIDAgMC0uNS0uNUgxLjVBMS41IDEuNSAwIDAgMCAwIDQuNXYxMEExLjUgMS41IDAgMCAwIDEuNSAxNmgxMGExLjUgMS41IDAgMCAwIDEuNS0xLjVWNy44NjRhLjUuNSAwIDAgMC0xIDBWMTQuNWEuNS41IDAgMCAxLS41LjVoLTEwYS41LjUgMCAwIDEtLjUtLjV2LTEwYS41LjUgMCAwIDEgLjUtLjVoNi42MzZhLjUuNSAwIDAgMCAuNS0uNXoiLz4mI3hhOyAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTYgLjVhLjUuNSAwIDAgMC0uNS0uNWgtNWEuNS41IDAgMCAwIDAgMWgzLjc5M0w2LjE0NiA5LjE0NmEuNS41IDAgMSAwIC43MDguNzA4TDE1IDEuNzA3VjUuNWEuNS41IDAgMCAwIDEgMHYtNXoiLz4mI3hhOzwvc3ZnPg==;sketch=1;style=&quot;stroke: blue;&quot;;fontColor=#007FFF;" parent="zqeIun6VxYZo0FJ2K99U-23" vertex="1">
-          <mxGeometry x="360" y="30" width="30" height="30" as="geometry" />
+          <mxGeometry x="280" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;h1 style=&quot;border: 0px; box-sizing: border-box; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-weight: var(--font-weight-h1); font-stretch: inherit; font-size: var(--font-size-h1); line-height: var(--line-height-h1); font-family: var(--header-font-family); font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin-top: 0px; margin-right: 0px; margin-bottom: var(--spacing-s); margin-left: 0px; padding: 0px; vertical-align: baseline; color: rgb(32, 33, 36);&quot; class=&quot;heading-1&quot; id=&quot;Title&quot;&gt;&lt;u style=&quot;&quot;&gt;events-eiffel (Gerrit)&lt;/u&gt;&lt;/h1&gt;" link="https://gerrit-review.googlesource.com/admin/repos/plugins/events-eiffel,general" linkTarget="_blank" id="2yXzKbut6S0QtFYLAXX_-3">
+          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;align=center;" parent="zqeIun6VxYZo0FJ2K99U-23" vertex="1">
+            <mxGeometry x="130" y="40" width="70" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2yXzKbut6S0QtFYLAXX_-4" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktYm94LWFycm93LXVwLXJpZ2h0IiB2aWV3Qm94PSIwIDAgMTYgMTYiPiYjeGE7ICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjYzNiAzLjVhLjUuNSAwIDAgMC0uNS0uNUgxLjVBMS41IDEuNSAwIDAgMCAwIDQuNXYxMEExLjUgMS41IDAgMCAwIDEuNSAxNmgxMGExLjUgMS41IDAgMCAwIDEuNS0xLjVWNy44NjRhLjUuNSAwIDAgMC0xIDBWMTQuNWEuNS41IDAgMCAxLS41LjVoLTEwYS41LjUgMCAwIDEtLjUtLjV2LTEwYS41LjUgMCAwIDEgLjUtLjVoNi42MzZhLjUuNSAwIDAgMCAuNS0uNXoiLz4mI3hhOyAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTYgLjVhLjUuNSAwIDAgMC0uNS0uNWgtNWEuNS41IDAgMCAwIDAgMWgzLjc5M0w2LjE0NiA5LjE0NmEuNS41IDAgMSAwIC43MDguNzA4TDE1IDEuNzA3VjUuNWEuNS41IDAgMCAwIDEgMHYtNXoiLz4mI3hhOzwvc3ZnPg==;sketch=1;style=&quot;stroke: blue;&quot;;fontColor=#007FFF;" parent="zqeIun6VxYZo0FJ2K99U-23" vertex="1">
+          <mxGeometry x="180" y="20" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-20" value="Store &amp; query events" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="640" width="320" height="160" as="geometry" />
+          <mxGeometry x="420" y="640" width="310" height="160" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;u&gt;Eiffel Persistence Technology Evaluation&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-persistence-technology-evaluation" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-11">
+        <UserObject label="&lt;u&gt;Eiffel Graphql API&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-graphql-api" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-6">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-20" vertex="1">
             <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;u&gt;Eiffel Graphql API&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-graphql-api" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-6">
+        <UserObject label="&lt;u&gt;GoER&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-goer" linkTarget="_blank" id="Pc76H5JKkXUgPMOflhiF-3">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-20" vertex="1">
             <mxGeometry x="130" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;u&gt;GoER&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-goer" linkTarget="_blank" id="Pc76H5JKkXUgPMOflhiF-3">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-20" vertex="1">
+        <UserObject label="&lt;div&gt;&lt;u&gt;Event Repository API&lt;/u&gt;&lt;/div&gt;" link="https://github.com/eiffel-community/eiffel-event-repository" linkTarget="_blank" id="o2AF__fT9zp_RZaJgsx6-2">
+          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#bac8d3;shadow=0;glass=0;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-20" vertex="1">
             <mxGeometry x="220" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-26" value="Event Sending" style="swimlane;horizontal=0;rounded=1;sketch=1;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="640" width="240" height="160" as="geometry" />
+          <mxGeometry x="40" y="640" width="150" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;REMReM&lt;/u&gt;" link="https://github.com/search?q=topic%3Aremrem+org%3Aeiffel-community" linkTarget="_blank" id="4cnv7Ipchus3uO7nBkjI-1">
           <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#56517e;fillColor=#d0cee2;sketch=1;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-26" vertex="1">
             <mxGeometry x="40" y="40" width="80" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;&lt;u&gt;Simple Event Sender &lt;/u&gt;&lt;br&gt;&lt;/div&gt;" link="https://github.com/eiffel-community/simple-event-sender" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-5">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-26" vertex="1">
-            <mxGeometry x="140" y="40" width="70" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-27" value="Get started" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="240" width="120" height="160" as="geometry" />
+          <mxGeometry x="390" y="240" width="130" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;Eiffel easy2use&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-easy2use" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-8">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-27" vertex="1">
@@ -81,28 +82,18 @@
           </mxCell>
         </UserObject>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-29" value="Visualization" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="440" width="330" height="160" as="geometry" />
+          <mxGeometry x="840" y="440" width="160" height="160" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;u&gt;Eiffel VICI&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-vici" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-18">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-29" vertex="1">
-            <mxGeometry x="40" y="40" width="70" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;div&gt;&lt;u&gt;Eiffel Store&lt;/u&gt;&lt;/div&gt;" link="https://github.com/eiffel-community/eiffel-store" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-3">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-29" vertex="1">
-            <mxGeometry x="130" y="40" width="70" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
         <UserObject label="&lt;u&gt;EiffelVis&lt;/u&gt;" link="https://github.com/ItJustWorksTM/EiffelVis" linkTarget="_blank" id="XxlDGhDn90PTSgsso3PK-3">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-29" vertex="1">
-            <mxGeometry x="220" y="40" width="70" height="70" as="geometry" />
+            <mxGeometry x="50" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="XxlDGhDn90PTSgsso3PK-4" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktYm94LWFycm93LXVwLXJpZ2h0IiB2aWV3Qm94PSIwIDAgMTYgMTYiPiYjeGE7ICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04LjYzNiAzLjVhLjUuNSAwIDAgMC0uNS0uNUgxLjVBMS41IDEuNSAwIDAgMCAwIDQuNXYxMEExLjUgMS41IDAgMCAwIDEuNSAxNmgxMGExLjUgMS41IDAgMCAwIDEuNS0xLjVWNy44NjRhLjUuNSAwIDAgMC0xIDBWMTQuNWEuNS41IDAgMCAxLS41LjVoLTEwYS41LjUgMCAwIDEtLjUtLjV2LTEwYS41LjUgMCAwIDEgLjUtLjVoNi42MzZhLjUuNSAwIDAgMCAuNS0uNXoiLz4mI3hhOyAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTYgLjVhLjUuNSAwIDAgMC0uNS0uNWgtNWEuNS41IDAgMCAwIDAgMWgzLjc5M0w2LjE0NiA5LjE0NmEuNS41IDAgMSAwIC43MDguNzA4TDE1IDEuNzA3VjUuNWEuNS41IDAgMCAwIDEgMHYtNXoiLz4mI3hhOzwvc3ZnPg==;sketch=1;style=&quot;stroke: blue;&quot;;fontColor=#007FFF;" parent="zqeIun6VxYZo0FJ2K99U-29" vertex="1">
-          <mxGeometry x="270" y="30" width="30" height="30" as="geometry" />
+          <mxGeometry x="100" y="20" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-32" value="Event processing" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="640" width="160" height="160" as="geometry" />
+          <mxGeometry x="220" y="640" width="160" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;Eiffel Intelligence&lt;/u&gt;" link="https://github.com/search?q=topic%3Aeiffel-intelligence+org%3Aeiffel-community" linkTarget="_blank" id="4cnv7Ipchus3uO7nBkjI-5">
           <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#56517e;fillColor=#d0cee2;sketch=1;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-32" vertex="1">
@@ -110,14 +101,14 @@
           </mxCell>
         </UserObject>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-33" value="Test framework" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="640" width="160" height="160" as="geometry" />
+          <mxGeometry x="770" y="640" width="160" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;&lt;u&gt;ETOS&lt;/u&gt;&lt;/div&gt;" link="https://github.com/search?q=topic%3Aetos+org%3Aeiffel-community" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-1">
           <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=12;align=center;strokeColor=#56517e;fillColor=#d0cee2;sketch=1;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-33" vertex="1">
             <mxGeometry x="40" y="40" width="80" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="zqeIun6VxYZo0FJ2K99U-35" value="Community &amp; Support" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
+        <mxCell id="zqeIun6VxYZo0FJ2K99U-35" value="Community &amp; Support" style="swimlane;horizontal=0;rounded=1;sketch=1;fillColor=#B3B3B3;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="40" y="440" width="500" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;Community&lt;/u&gt;" link="https://github.com/eiffel-community/community" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-36">
@@ -145,8 +136,11 @@
             <mxGeometry x="400" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="o2AF__fT9zp_RZaJgsx6-1" value="Note: These repositories do not qualify for graduation, as they contain only support and community-related content." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zqeIun6VxYZo0FJ2K99U-35" vertex="1">
+          <mxGeometry x="30" y="130" width="450" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="zqeIun6VxYZo0FJ2K99U-40" value="Libraries" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="240" width="510" height="160" as="geometry" />
+          <mxGeometry x="550" y="240" width="390" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;Eiffel Commons&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-commons" linkTarget="_blank" id="zqeIun6VxYZo0FJ2K99U-12">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-40" vertex="1">
@@ -158,19 +152,14 @@
             <mxGeometry x="130" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;u&gt;Eiffel Gerrit Lib&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-gerrit-lib" linkTarget="_blank" id="o22u1dbGZqNFwppqT962-9">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-40" vertex="1">
-            <mxGeometry x="224" y="40" width="70" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
         <UserObject label="&lt;u&gt;Go SDK&lt;/u&gt;" link="https://github.com/eiffel-community/eiffelevents-sdk-go" linkTarget="_blank" id="XxlDGhDn90PTSgsso3PK-1">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-40" vertex="1">
-            <mxGeometry x="320" y="40" width="70" height="70" as="geometry" />
+            <mxGeometry x="220" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;u&gt;.NET SDK&lt;br&gt;&lt;/u&gt;" link="https://github.com/eiffel-community/eiffelevents-sdk-dotnet" linkTarget="_blank" id="XxlDGhDn90PTSgsso3PK-2">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;" parent="zqeIun6VxYZo0FJ2K99U-40" vertex="1">
-            <mxGeometry x="410" y="40" width="70" height="70" as="geometry" />
+            <mxGeometry x="310" y="40" width="70" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="pbUG1Z5GE2ASGBCX3JOG-1" value="Legend" style="swimlane;rounded=1;sketch=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#F0FCFF;" parent="1" vertex="1">
@@ -200,13 +189,8 @@
         <mxCell id="pbUG1Z5GE2ASGBCX3JOG-11" value="Eiffel Community Landscape" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=1;fontSize=47;fontStyle=1;labelBorderColor=none;fontFamily=Helvetica;labelBackgroundColor=none;fillStyle=cross-hatch;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="720" y="40" width="400" height="160" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;u&gt;Sepia&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-sepia" linkTarget="_blank" id="4cnv7Ipchus3uO7nBkjI-7">
-          <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;" parent="1" vertex="1">
-            <mxGeometry x="715" y="480" width="70" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="XxlDGhDn90PTSgsso3PK-11" value="Protocol Integration" style="swimlane;horizontal=0;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="640" width="220" height="160" as="geometry" />
+          <mxGeometry x="970" y="640" width="220" height="160" as="geometry" />
         </mxCell>
         <UserObject label="&lt;u&gt;CDEvents&lt;br&gt;Translator&lt;br&gt;&lt;/u&gt;" link="https://github.com/eiffel-community/eiffel-translator-cdevents" linkTarget="_blank" id="XxlDGhDn90PTSgsso3PK-5">
           <mxCell style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" parent="XxlDGhDn90PTSgsso3PK-11" vertex="1">
